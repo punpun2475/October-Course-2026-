@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPC October Course 2026 กิจกรรมบูรณาการ ปิดเทอมนี้ มาเรียนรู้แบบสนุกสุดฟิน </title>
+    <title>SPC October Course 2026 ระดับ ประถม มัธยมศึกษา </title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,39 +14,39 @@
         body { font-family: 'Sarabun', sans-serif; background-color: #F8FAFC; }
         [v-cloak] { display: none !important; }
         .spinner { border: 4px solid rgba(0, 0, 0, 0.1); width: 24px; height: 24px; border-radius: 50%; border-left-color: #ffffff; animation: spin 1s linear infinite; }
-        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #3b82f6; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto; }
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #10b981; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     </style>
 </head>
-<body class="text-gray-800 antialiased selection:bg-blue-200">
+<body class="text-gray-800 antialiased selection:bg-emerald-200">
     <div id="app" v-cloak>
         
        <!-- Header & Banner -->
         <header v-if="currentView !== 'admin'" class="bg-white border-b sticky top-0 z-40 shadow-sm">
             <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-                <div class="flex items-center gap-2 font-bold text-xl text-blue-600 cursor-pointer" @click="setView('home')">
+                <div class="flex items-center gap-2 font-bold text-xl text-emerald-600 cursor-pointer" @click="setView('home')">
                     <img src="https://github.com/punpun2475/picture/blob/main/ST%20(3).PNG?raw=true" alt="Logo" class="w-8 h-8 object-cover rounded-full">
-                    <span>SPC October Course 2026 กิจกรรมบูรณาการ ปิดเทอมนี้ มาเรียนรู้แบบสนุกสุดฟิน</span>
+                    <span>SPC October Course 2026 ระดับ ประถม มัธยมศึกษา</span>
                 </div>
                 <div class="hidden md:flex gap-6 text-sm text-gray-600">
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-phone text-blue-500"></i>063-173-8406</div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-envelope text-blue-500"></i> t.molly@sp.ac.th </div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-phone text-emerald-500"></i>063-173-8406</div>
+                    <div class="flex items-center gap-2"><i class="fa-solid fa-envelope text-emerald-500"></i> t.molly@sp.ac.th </div>
                 </div>
             </div>
         </header>
 
         <!-- View: Home -->
         <main v-if="currentView === 'home'" class="bg-slate-50 min-h-screen pb-12 flex flex-col">
-            <div class="bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-600 text-white py-16 px-4 text-center shadow-md">
+            <div class="bg-gradient-to-r from-emerald-600 via-teal-600 to-green-600 text-white py-16 px-4 text-center shadow-md">
                 <div class="max-w-3xl mx-auto flex flex-col items-center">
                     <div class="bg-white rounded-full mb-4 shadow-lg w-20 h-20 flex items-center justify-center overflow-hidden border-2 border-white p-0">
                         <img src="https://github.com/punpun2475/picture/blob/main/ST%20(3).PNG?raw=true" alt="Logo" class="w-full h-full object-cover">
                     </div>
                     
-                    <h1 class="text-3xl md:text-5xl font-extrabold mb-3">SPC October Course 2026 กิจกรรมบูรณาการ ปิดเทอมนี้ มาเรียนรู้แบบสนุกสุดฟิน</h1>
-                    <p class="text-lg md:text-xl text-blue-100 mb-4">เรียน สนุก ครบจบในที่เดียว! พัฒนาทักษะรอบด้านปิดเทอมนี้</p>
+                    <h1 class="text-3xl md:text-5xl font-extrabold mb-3">SPC October Course 2026 ระดับ ประถม มัธยมศึกษา</h1>
+                    <p class="text-lg md:text-xl text-emerald-100 mb-4">กิจกรรมบูรณาการ ปิดเทอมนี้ มาเรียนรู้แบบสนุกสุดฟิน</p>
                     
-                    <div class="text-sm md:text-base text-blue-100 font-medium bg-blue-800/40 px-4 py-1.5 rounded-full border border-blue-400/40 backdrop-blur-sm">
+                    <div class="text-sm md:text-base text-emerald-100 font-medium bg-emerald-800/40 px-4 py-1.5 rounded-full border border-emerald-400/40 backdrop-blur-sm">
                         <i class="fa-solid fa-school mr-1"></i> จัดสอนโดย โรงเรียนเซนต์ปอลคอนแวนต์
                     </div>
                 </div>
@@ -54,12 +54,12 @@
 
             <div class="max-w-5xl mx-auto px-4 mt-8 flex-1 w-full">
                 <div class="flex items-center gap-2 mb-6 text-xl font-bold text-gray-800">
-                    <i class="fa-solid fa-book-open text-blue-600"></i> เลือกคอร์สเรียนทั้งหมด
+                    <i class="fa-solid fa-book-open text-emerald-600"></i> เลือกคอร์สเรียนทั้งหมด
                 </div>
 
                 <div v-if="isLoading" class="text-center py-20">
                     <div class="loader mb-4"></div>
-                    <p class="text-blue-600 font-bold text-lg">กำลังดึงข้อมูลจาก Google Sheet...</p>
+                    <p class="text-emerald-600 font-bold text-lg">กำลังดึงข้อมูลจาก Google Sheet...</p>
                 </div>
 
                 <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -68,12 +68,12 @@
                             <img v-if="course.image" :src="course.image" :alt="course.title" class="w-full h-full object-cover object-top" />
                             <div v-else class="w-full h-full flex items-center justify-center text-gray-400"><i class="fa-regular fa-image text-5xl"></i></div>
                             
-                            <!-- ป้ายราคา หรือ ป้ายเตือนกรณีเต็ม -->
-                            <div class="absolute top-3 right-3 bg-white/95 backdrop-blur text-blue-600 font-bold px-3 py-1 rounded-full text-sm shadow-sm border border-blue-100">
+                            <!-- ป้ายราคา -->
+                            <div class="absolute top-3 right-3 bg-white/95 backdrop-blur text-emerald-600 font-bold px-3 py-1 rounded-full text-sm shadow-sm border border-emerald-100">
                                 ฿{{ course.price }}
                             </div>
 
-                            <!-- ป้ายบอกสถานะเต็มบนรูป (ถ้ามีคำว่า เต็ม หรือ ปิด) -->
+                            <!-- ป้ายสถานะเต็ม -->
                             <div v-if="isCourseFull(course)" class="absolute inset-0 bg-black/50 backdrop-blur-[2px] flex items-center justify-center">
                                 <span class="bg-red-600 text-white font-extrabold px-4 py-2 rounded-xl text-lg shadow-lg rotate-[-5deg]">
                                     <i class="fa-solid fa-ban mr-1"></i> คอร์สเต็ม / ปิดรับสมัคร
@@ -89,13 +89,13 @@
                                 <div class="flex items-center gap-2 text-sm text-gray-600"><i class="fa-regular fa-clock text-gray-400"></i> {{ course.duration || 'ไม่ระบุเวลา' }}</div>
                                 <div v-if="course.date || course.spotsLeft" class="flex items-center justify-between text-sm text-gray-600">
                                     <div class="flex items-center gap-2" v-if="course.date"><i class="fa-regular fa-calendar text-gray-400"></i> เริ่ม {{ course.date }}</div>
-                                    <span :class="['font-medium px-2 py-0.5 rounded text-xs', isCourseFull(course) ? 'bg-red-100 text-red-600 font-bold' : 'bg-blue-50 text-blue-600']">
+                                    <span :class="['font-medium px-2 py-0.5 rounded text-xs', isCourseFull(course) ? 'bg-red-100 text-red-600 font-bold' : 'bg-emerald-50 text-emerald-600']">
                                         {{ course.spotsLeft || 'ไม่จำกัด' }}
                                     </span>
                                 </div>
                             </div>
                             
-                            <button @click="openCourseDetails(course)" class="w-full bg-blue-50 text-blue-600 font-bold py-3 rounded-xl border border-blue-200 hover:bg-blue-100 transition shadow-sm">
+                            <button @click="openCourseDetails(course)" class="w-full bg-emerald-50 text-emerald-600 font-bold py-3 rounded-xl border border-emerald-200 hover:bg-emerald-100 transition shadow-sm">
                                 ดูรายละเอียดคอร์ส
                             </button>
                         </div>
@@ -113,16 +113,16 @@
         <div v-if="showModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-gray-900/60 backdrop-blur-sm">
             <div class="bg-white rounded-2xl shadow-xl w-full max-w-3xl max-h-[90vh] flex flex-col">
                 <div class="p-4 border-b flex justify-between items-center bg-gray-50 rounded-t-2xl">
-                    <h2 class="text-xl font-bold flex items-center gap-2 text-gray-800"><i class="fa-solid fa-circle-info text-blue-600"></i> รายละเอียดคอร์ส</h2>
+                    <h2 class="text-xl font-bold flex items-center gap-2 text-gray-800"><i class="fa-solid fa-circle-info text-emerald-600"></i> รายละเอียดคอร์ส</h2>
                     <button @click="showModal = false" class="p-2 hover:bg-gray-200 rounded-full transition text-gray-500"><i class="fa-solid fa-xmark text-xl"></i></button>
                 </div>
                 <div class="p-6 overflow-y-auto flex-1">
                     <h2 class="text-2xl font-extrabold text-gray-900 mb-1">{{ selectedCourse.title }}</h2>
                     <p class="text-gray-600 mb-6">{{ selectedCourse.subtitle || selectedCourse.description || '' }}</p>
 
-                    <div class="bg-blue-50 text-center py-5 rounded-xl border border-blue-100 mb-8">
+                    <div class="bg-emerald-50 text-center py-5 rounded-xl border border-emerald-100 mb-8">
                         <div class="flex justify-center items-end gap-3">
-                            <span class="text-4xl font-extrabold text-blue-600">฿{{ selectedCourse.price }}</span>
+                            <span class="text-4xl font-extrabold text-emerald-600">฿{{ selectedCourse.price }}</span>
                             <span v-if="selectedCourse.originalPrice" class="text-lg text-gray-400 line-through mb-1">฿{{ selectedCourse.originalPrice }}</span>
                             <span v-if="selectedCourse.discount" class="bg-red-500 text-white text-xs font-bold px-2.5 py-1 rounded-full mb-1.5 shadow-sm">{{ selectedCourse.discount }}</span>
                         </div>
@@ -130,12 +130,12 @@
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
-                            <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-list text-blue-500"></i> ข้อมูลพื้นฐาน</h3>
+                            <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-list text-emerald-500"></i> ข้อมูลพื้นฐาน</h3>
                             <ul class="space-y-3 text-sm text-gray-700 mb-8">
                                 <li class="flex justify-between items-center bg-gray-50 p-2.5 rounded-lg"><span>ระยะเวลา:</span> <span class="font-bold">{{ selectedCourse.duration || '-' }}</span></li>
                                 <li class="flex justify-between items-center bg-gray-50 p-2.5 rounded-lg"><span>วันที่เรียน:</span> <span class="font-bold">{{ selectedCourse.date || '-' }}</span></li>
                                 <li class="flex justify-between items-center bg-gray-50 p-2.5 rounded-lg"><span>เวลา:</span> <span class="font-bold">{{ selectedCourse.time || selectedCourse.Time || '-' }}</span></li>
-                                <li class="flex justify-between items-center bg-blue-50 p-2.5 rounded-lg text-blue-700"><span>สถานะที่นั่ง:</span> <span class="font-bold">{{ selectedCourse.spotsLeft || 'ไม่จำกัด' }}</span></li>
+                                <li class="flex justify-between items-center bg-emerald-50 p-2.5 rounded-lg text-emerald-700"><span>สถานะที่นั่ง:</span> <span class="font-bold">{{ selectedCourse.spotsLeft || 'ไม่จำกัด' }}</span></li>
                             </ul>
 
                             <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-star text-yellow-500"></i> จุดเด่นคอร์สนี้</h3>
@@ -147,10 +147,10 @@
                         </div>
 
                         <div>
-                            <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-book-open text-purple-500"></i> สิ่งที่จะได้เรียนรู้</h3>
+                            <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-book-open text-teal-500"></i> สิ่งที่จะได้เรียนรู้</h3>
                             <div class="space-y-2 mb-8">
-                                <div v-for="(item, i) in (selectedCourse.learnList ? selectedCourse.learnList.split(',') : [])" :key="i" class="flex items-start gap-2 text-sm text-gray-700 bg-purple-50/50 p-2.5 rounded-lg">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-purple-500 mt-2 shrink-0"></div> {{ item.trim() }}
+                                <div v-for="(item, i) in (selectedCourse.learnList ? selectedCourse.learnList.split(',') : [])" :key="i" class="flex items-start gap-2 text-sm text-gray-700 bg-teal-50/50 p-2.5 rounded-lg">
+                                    <div class="w-1.5 h-1.5 rounded-full bg-teal-500 mt-2 shrink-0"></div> {{ item.trim() }}
                                 </div>
                             </div>
 
@@ -166,11 +166,10 @@
                 <div class="p-4 border-t bg-white rounded-b-2xl flex gap-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] z-10">
                     <button @click="showModal = false" class="flex-1 py-3 bg-gray-100 text-gray-700 font-bold rounded-xl hover:bg-gray-200 transition">ปิด</button>
                     
-                    <!-- ปุ่มสมัคร: ถ้าคอร์สเต็มจะถูกปิดการใช้งานและเปลี่ยนเป็นสีเทา -->
                     <button v-if="isCourseFull(selectedCourse)" disabled class="flex-1 py-3 bg-gray-300 text-gray-500 font-bold rounded-xl cursor-not-allowed shadow-none flex items-center justify-center gap-2">
                         <i class="fa-solid fa-ban"></i> คอร์สเต็ม / ปิดรับสมัคร
                     </button>
-                    <button v-else @click="proceedToCheckout" class="flex-1 py-3 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition shadow-md flex items-center justify-center gap-2">
+                    <button v-else @click="proceedToCheckout" class="flex-1 py-3 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition shadow-md flex items-center justify-center gap-2">
                         สมัครเรียนคอร์สนี้ <i class="fa-solid fa-chevron-right"></i>
                     </button>
                 </div>
@@ -184,39 +183,39 @@
                     <i class="fa-solid fa-arrow-left"></i> กลับหน้ารายการคอร์ส
                 </button>
                 <h2 class="text-2xl font-extrabold mb-6 text-gray-800 flex items-center gap-3">
-                    <div class="bg-blue-100 text-blue-600 p-2 rounded-lg"><i class="fa-regular fa-file-lines"></i></div> รายละเอียดการสมัคร
+                    <div class="bg-emerald-100 text-emerald-600 p-2 rounded-lg"><i class="fa-regular fa-file-lines"></i></div> รายละเอียดการสมัคร
                 </h2>
                 <form @submit.prevent="handleSubmit" class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
                     <div class="p-6 md:p-8 space-y-8">
                         <div>
-                            <h3 class="font-bold text-lg text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-users text-blue-600"></i> ข้อมูลผู้ติดต่อ (ผู้ปกครอง)</h3>
+                            <h3 class="font-bold text-lg text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-users text-emerald-600"></i> ข้อมูลผู้ติดต่อ (ผู้ปกครอง)</h3>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">ชื่อ *</label><input v-model="formData.parentFirstName" required type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" /></div>
-                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">นามสกุล *</label><input v-model="formData.parentLastName" required type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" /></div>
-                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">อีเมล *</label><input v-model="formData.email" required type="email" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" /></div>
-                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">เบอร์โทรศัพท์ *</label><input v-model="formData.phone" required type="tel" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" /></div>
+                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">ชื่อ *</label><input v-model="formData.parentFirstName" required type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" /></div>
+                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">นามสกุล *</label><input v-model="formData.parentLastName" required type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" /></div>
+                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">อีเมล *</label><input v-model="formData.email" required type="email" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" /></div>
+                                <div><label class="block text-sm font-bold text-gray-700 mb-1.5">เบอร์โทรศัพท์ *</label><input v-model="formData.phone" required type="tel" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" /></div>
                             </div>
                         </div>
 
                         <div>
-                            <h3 class="font-bold text-lg text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-graduation-cap text-blue-600"></i> ข้อมูลผู้เรียน (นักเรียน/น้อง)</h3>
+                            <h3 class="font-bold text-lg text-gray-800 mb-4 flex items-center gap-2 border-b pb-2"><i class="fa-solid fa-graduation-cap text-emerald-600"></i> ข้อมูลผู้เรียน (นักเรียน/น้อง)</h3>
                             <div class="space-y-5">
                                 <div>
                                     <label class="block text-sm font-bold text-gray-700 mb-1.5">ชื่อ - นามสกุล (น้องที่มาเรียน) *</label>
-                                    <input v-model="formData.studentFullName" required type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" />
+                                    <input v-model="formData.studentFullName" required type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" />
                                 </div>
                                 <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
                                     <div>
                                         <label class="block text-sm font-bold text-gray-700 mb-1.5">อายุ (ปี) *</label>
-                                        <input v-model="formData.childAge" required type="number" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" />
+                                        <input v-model="formData.childAge" required type="number" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" />
                                     </div>
                                     <div>
                                         <label class="block text-sm font-bold text-gray-700 mb-1.5">ชั้น / ห้องเรียน</label>
-                                        <input v-model="formData.studentClass" type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" />
+                                        <input v-model="formData.studentClass" type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" />
                                     </div>
                                     <div>
                                         <label class="block text-sm font-bold text-gray-700 mb-1.5">โรงเรียน</label>
-                                        <input v-model="formData.schoolName" type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-blue-500" />
+                                        <input v-model="formData.schoolName" type="text" class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500" />
                                     </div>
                                 </div>
                             </div>
@@ -228,7 +227,7 @@
                         <h3 class="font-bold text-xl flex items-center gap-2 mb-6"><i class="fa-regular fa-credit-card text-yellow-400"></i> ข้อมูลการชำระเงิน</h3>
                         
                         <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 backdrop-blur-sm mb-6 shadow-md">
-                            <div class="text-xs text-blue-400 font-bold mb-3 uppercase tracking-wider">โอนเงินเข้าบัญชี</div>
+                            <div class="text-xs text-emerald-400 font-bold mb-3 uppercase tracking-wider">โอนเงินเข้าบัญชี</div>
                             <div class="flex flex-col gap-3">
                                 <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-gray-900 font-bold text-xs">BAY</div> <span class="text-lg">ธนาคารกรุงศรีอยุธยา</span></div>
                                 <div class="flex items-center gap-3"><i class="fa-solid fa-hashtag text-slate-400"></i> <span class="font-mono text-2xl tracking-wider text-yellow-300 font-bold">278-1-44182-3</span></div>
@@ -250,12 +249,12 @@
                         </div>
                         <div>
                             <label class="block text-sm font-bold text-slate-200 mb-3">แนบหลักฐานการโอนเงิน (สลิป) *</label>
-                            <input required type="file" accept="image/*" @change="handleFileChange" class="w-full text-sm text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-blue-600 file:text-white" />
+                            <input required type="file" accept="image/*" @change="handleFileChange" class="w-full text-sm text-slate-300 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-emerald-600 file:text-white" />
                             <p class="text-xs text-slate-400 mt-2">รองรับไฟล์ภาพขนาดไม่เกิน 5MB</p>
                         </div>
                     </div>
                     <div class="p-4 bg-gray-50 border-t border-gray-200">
-                        <button type="submit" :disabled="isSubmitting || !slipFileName" :class="['w-full py-4 text-white font-bold rounded-xl text-lg transition shadow-lg flex items-center justify-center gap-2', isSubmitting ? 'bg-blue-400 cursor-wait' : (!slipFileName ? 'bg-gray-300 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700')]">
+                        <button type="submit" :disabled="isSubmitting || !slipFileName" :class="['w-full py-4 text-white font-bold rounded-xl text-lg transition shadow-lg flex items-center justify-center gap-2', isSubmitting ? 'bg-emerald-400 cursor-wait' : (!slipFileName ? 'bg-gray-300 cursor-not-allowed' : 'bg-emerald-600 hover:bg-emerald-700')]">
                             <div v-if="isSubmitting" class="spinner"></div> 
                             <span v-if="isSubmitting">กำลังส่งข้อมูล...</span>
                             <span v-else>ยืนยันการสมัครและส่งสลิปโอนเงิน</span>
@@ -267,11 +266,11 @@
 
         <!-- View: Success -->
         <main v-if="currentView === 'success'" class="min-h-screen bg-slate-50 flex items-center justify-center p-4">
-            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 max-w-lg w-full text-center border-t-8 border-blue-600">
-                <div class="w-24 h-24 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 relative"><i class="fa-solid fa-check text-4xl"></i></div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 max-w-lg w-full text-center border-t-8 border-emerald-600">
+                <div class="w-24 h-24 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6 relative"><i class="fa-solid fa-check text-4xl"></i></div>
                 <h2 class="text-3xl font-extrabold text-gray-800 mb-4">ส่งข้อมูลสำเร็จ!</h2>
                 <div class="bg-gray-50 p-4 rounded-xl mb-6 border border-gray-100">
-                    <p class="text-gray-600">เราได้รับข้อมูลและสลิปโอนเงินคอร์ส <br/><strong class="text-blue-600 block mt-2 text-lg">"{{ selectedCourse?.title }}"</strong></p>
+                    <p class="text-gray-600">เราได้รับข้อมูลและสลิปโอนเงินคอร์ส <br/><strong class="text-emerald-600 block mt-2 text-lg">"{{ selectedCourse?.title }}"</strong></p>
                 </div>
                 <button @click="resetApp()" class="bg-gray-900 text-white font-bold py-3.5 px-8 rounded-xl hover:bg-black transition w-full shadow-md">กลับสู่หน้าหลัก</button>
             </div>
@@ -280,7 +279,7 @@
         <!-- View: Admin Dashboard -->
         <main v-if="currentView === 'admin'" class="min-h-screen bg-gray-100">
             <header class="bg-gray-900 text-white h-16 flex items-center justify-between px-6 shadow-md sticky top-0 z-30">
-                <div class="font-bold flex items-center gap-2"><i class="fa-solid fa-shield-halved text-blue-400"></i> System Admin Dashboard</div>
+                <div class="font-bold flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> System Admin Dashboard</div>
                 <button @click="setView('home'); isAdminAuthenticated = false" class="text-sm hover:text-gray-300 flex items-center gap-1"><i class="fa-solid fa-house"></i> กลับหน้าร้าน</button>
             </header>
             <div class="p-6 max-w-[95%] mx-auto">
@@ -291,8 +290,8 @@
                         <p class="text-sm text-gray-500 mt-1">กรุณายืนยันตัวตน (รหัสผ่าน: admin123)</p>
                     </div>
                     <form @submit.prevent="handleAdminLogin" class="space-y-4">
-                        <input type="password" v-model="adminPassword" placeholder="รหัสผ่าน" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none" />
-                        <button type="submit" :disabled="isAdminLoading" class="w-full bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition flex items-center justify-center gap-2">
+                        <input type="password" v-model="adminPassword" placeholder="รหัสผ่าน" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none" />
+                        <button type="submit" :disabled="isAdminLoading" class="w-full bg-emerald-600 text-white font-bold py-3 rounded-xl hover:bg-emerald-700 transition flex items-center justify-center gap-2">
                             <div v-if="isAdminLoading" class="spinner"></div> 
                             <span v-if="isAdminLoading">กำลังโหลดข้อมูล...</span>
                             <span v-else>เข้าสู่ระบบ</span>
@@ -322,19 +321,19 @@
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-100">
-                                <tr v-for="(row, idx) in adminData" :key="idx" class="hover:bg-blue-50/50 transition">
+                                <tr v-for="(row, idx) in adminData" :key="idx" class="hover:bg-emerald-50/50 transition">
                                     <td class="px-4 py-3 text-gray-500 text-xs">{{ row['Timestamp'] || '-' }}</td>
                                     <td class="px-4 py-3 font-bold text-gray-800">{{ row['CourseName'] || '-' }}</td>
                                     <td class="px-4 py-3">{{ row['ParentFirstName'] || '-' }}</td>
                                     <td class="px-4 py-3">{{ row['ParentLastName'] || '-' }}</td>
                                     <td class="px-4 py-3 text-gray-600">{{ row['Email'] || '-' }}</td>
                                     <td class="px-4 py-3">{{ row['Phone'] || '-' }}</td>
-                                    <td class="px-4 py-3 font-medium text-blue-600">{{ row['StudentFullName'] || '-' }}</td>
+                                    <td class="px-4 py-3 font-medium text-emerald-600">{{ row['StudentFullName'] || '-' }}</td>
                                     <td class="px-4 py-3 text-center">{{ row['ChildAge'] || '-' }}</td>
                                     <td class="px-4 py-3">{{ row['StudentClass'] || '-' }}</td>
                                     <td class="px-4 py-3">{{ row['SchoolName'] || '-' }}</td>
                                     <td class="px-4 py-3 text-center">
-                                        <a v-if="row['SlipURL']" :href="row['SlipURL']" target="_blank" class="bg-blue-50 text-blue-600 px-3 py-1.5 rounded-full text-xs font-bold hover:bg-blue-100 transition inline-flex items-center gap-1 shadow-xs"><i class="fa-solid fa-image"></i> ดูสลิป</a>
+                                        <a v-if="row['SlipURL']" :href="row['SlipURL']" target="_blank" class="bg-emerald-50 text-emerald-600 px-3 py-1.5 rounded-full text-xs font-bold hover:bg-emerald-100 transition inline-flex items-center gap-1 shadow-xs"><i class="fa-solid fa-image"></i> ดูสลิป</a>
                                         <span v-else class="text-gray-400">-</span>
                                     </td>
                                 </tr>
@@ -382,7 +381,6 @@
                         .then(response => response.json())
                         .then(data => {
                             if (data.result === 'success' && data.data) {
-                                // โหลดทุกคอร์สมาแสดง (ไม่ซ่อนคอร์สที่เต็มแล้ว)
                                 courses.value = data.data; 
                             }
                             isLoading.value = false;
@@ -392,7 +390,6 @@
                         });
                 });
 
-                // ฟังก์ชันเช็คว่าคอร์สนี้เต็มหรือยัง (ดูจากคำในช่อง spotsLeft หรือ isActive)
                 const isCourseFull = (course) => {
                     if (!course) return false;
                     let spots = String(course.spotsLeft || '').toLowerCase();

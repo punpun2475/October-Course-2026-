@@ -69,9 +69,9 @@
                             <div v-else class="w-full h-full flex items-center justify-center text-gray-400"><i class="fa-regular fa-image text-5xl"></i></div>
                             
                             <!-- ป้ายราคา -->
-                            <div class="absolute top-3 right-3 bg-white/95 backdrop-blur text-emerald-600 font-bold px-3 py-1 rounded-full text-sm shadow-sm border border-emerald-100">
-                                ฿{{ course.price }}
-                            </div>
+                           <div class="absolute top-3 left-3 bg-white/95 backdrop-blur text-red-600 font-bold px-3 py-1 rounded-full text-sm shadow-sm border border-red-100">
+    ฿{{ course.price }}
+</div>
 
                             <!-- ป้ายสถานะเต็ม -->
                             <div v-if="isCourseFull(course)" class="absolute inset-0 bg-black/50 backdrop-blur-[2px] flex items-center justify-center">
